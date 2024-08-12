@@ -66,9 +66,9 @@
 # yoda_height = float(0.66)
 # r2d2_height = float(1.09)
 # c3po_height = float(1.75)
-#  total variables divided by 4 
+#  total variables divided by 4
 # print((ahsoka_height + yoda_height + r2d2_height + c3po_height) / 4)
-# String Concatination 
+# String Concatination
 # name = "Yoda"
 # print("Your name is "+name)
 # height = 0.66
@@ -83,7 +83,7 @@
 # second_name = "Rose"
 # year = 1912
 
-# print(first_name + " and " + second_name + " were on the Titanic in "+ str(year)) 
+# print(first_name + " and " + second_name + " were on the Titanic in "+ str(year))
 
 # Exercise
 """ You are an intern at a bank and you habe been tasked to create a simple program to calculte the interest that customer will earn on their saving account. The interest is calculated yearly using the simple interest formula 
@@ -96,3 +96,6 @@ Simple interest = principal * rate * time / 100
 # time = 2
 # interest = (principal * rate * time)/100
 # print(interest)
+
+# Level 4
+# Functions

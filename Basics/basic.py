@@ -99,3 +99,127 @@ Simple interest = principal * rate * time / 100
 
 # Level 4
 # Functions
+
+# a = 1
+# b = 2
+# c = 3
+# minimum_value = max(a, b, c)
+# you can use this as well
+# a,b,c =1,2,3
+# print(max(a,b,c))
+
+# a = -7.6
+# Absolute Value
+# a = abs(a)
+# print(a)
+# print(abs(-7.6))  # Output: 7.6
+# round
+# b = -7.6
+# b = round(b)
+# print(b)
+# print(round(-7.6))  # Output: -8
+# ashoka_height = 1.70
+# yoda_height = 0.66
+# r2d2_height = 1.09
+
+# average_height = (ashoka_height+yoda_height+r2d2_height) / 3
+# maximum_height = max(ashoka_height,yoda_height,r2d2_height)
+# minimum_height = min(ashoka_height , yoda_height , r2d2_height)
+# print("The Average Height is "+ str(average_height)+". The maximum Height is "+str(maximum_height)+ ". The Minimum Height is "+str(minimum_height))
+
+# Input Function
+
+# name = input("What is your Name? ")
+# age = int(input("Enter your Age "))
+# print("Your name is  "+ name +" and your age is " +str(age))
+
+# Custom Functions
+
+# def your_name_function():
+#     your_name = input("What is your name? ")
+#     print("Your name is "+your_name)
+
+# your_name_function()
+
+# def age_of_rey():
+#     age = int(input("How old is Rey? "))
+#     print("Rey's age is "+str(age))
+
+# age_of_rey()  # Output: How old is Rey? Rey's age is 19
+
+# name = input("What is his Name? ")
+# age = input("What is "+name+"'s age" )
+
+# def age_in_one_year(name, age):
+#     age_next_year = int(age) + 1
+#     print("In one year, "+name+" will be "+str(age_next_year)+" years old.")
+
+# age_in_one_year(name, age)
+
+# name = input("Who was on Titanic? ")
+# year = input("What year is it? ")
+
+# def titanic(name, year):
+#     year = int(year)
+#     year = year - 1912
+#     year = str(year)
+#     print(name + " were on the Titanic, which sunk " + year + " Years ago.")
+
+
+# titanic(name, year)
+
+# def my_age(age):
+#     print("My age is " + str(age))
+
+
+# my_age(39) # Output: My age is 25
+# def my_age(age = 19):
+#     print("My age is " + str(age))
+
+
+# my_age() # Output: My age is 25
+
+# Return Values in Function
+
+# def convert_f_to_c(a):
+#     return (a-32)/1.8
+
+
+# convert_f_to_c(80)
+
+# def convert_c_to_f(a):
+#     return (a*1.8)+32
+
+
+# convert_c_to_f(27)
+
+# Function Exercise
+
+# def add(a, b):
+#     return a + b
+
+# def sub(a, b):
+#     return a - b
+
+# def mul(a, b):
+#     return a * b
+
+# def div(a, b):
+#     return a / b
+
+
+# num1 = float(input("Enter 1st Number"))
+# num2 = float(input("Enter 2nd number"))
+
+# operator = input("Enter operator (+, -, *, /): ")
+
+# if operator == "+":
+#     print("The result is: ", add(num1, num2))
+# elif operator == "-":
+#     print("The result is: ", sub(num1, num2))
+# elif operator == "*":
+#     print("The result is: ", mul(num1, num2))
+# elif operator == "/":
+#     print("The result is: ", div(num1, num2))
+# else:
+#     print("Invalid operator")  # Output: Invalid operator

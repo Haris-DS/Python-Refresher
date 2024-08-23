@@ -223,3 +223,10 @@ Simple interest = principal * rate * time / 100
 #     print("The result is: ", div(num1, num2))
 # else:
 #     print("Invalid operator")  # Output: Invalid operator
+
+
+boba_fett_experience = 20
+storm_trooper_experience = 10
+expereince = [boba_fett_experience, storm_trooper_experience]
+total_experience = sum(expereince)
+print(total_experience)

@@ -225,8 +225,14 @@ Simple interest = principal * rate * time / 100
 #     print("Invalid operator")  # Output: Invalid operator
 
 
-boba_fett_experience = 20
-storm_trooper_experience = 10
-expereince = [boba_fett_experience, storm_trooper_experience]
-total_experience = sum(expereince)
-print(total_experience)
+# boba_fett_experience = 20
+# storm_trooper_experience = 10
+# expereince = [boba_fett_experience, storm_trooper_experience]
+# total_experience = sum(expereince)
+# print(total_experience)
+# print(type(expereince))
+
+x = 1
+while x < 4 :
+    print(x)
+    x = x + 1
